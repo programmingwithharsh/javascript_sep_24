@@ -1,0 +1,13 @@
+.header2 {
+  background-color: pink;
+}
+
+.para {
+  background-color: green;
+  color: white;
+  padding: 20px;
+  font-size: 40px;
+  border: 12px solid gold;
+  margin: 20px;
+  text-align: center;
+}

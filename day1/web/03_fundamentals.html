@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*
+            Multiline comment in Javascript
+
+            Variable
+            --------
+                It is a container which contains some information
+                We can either use var, let and const to define variables
+                let and const is added in ES6
+                For example 
+                    var address = "Mumbai";
+
+
+            String 
+            ------
+                Set of characters is called string 
+                We can either use single or double quotes
+
+                For example 
+                var address = "Mumbai"; 
+
+            Array 
+            -----
+                Store multiple values in a single variable
+                We use [] brackets for this
+                Array indexing starts from 0th position
+                We can only have numerically indexed array, it means we can only store value
+
+                For example 
+                var flowers = ["Rose", "Dahlia", "Magnolia", "Tulip", "Daisy"];
+
+            Object 
+            -------
+                Store key and value pair
+                We use curly braces 
+                Contains properties and method
+
+                For example 
+                
+                var family = {
+                    father: "a", 
+                    mother: "b", 
+                    sister: "c", 
+                    brother: "d",
+                    grandeFamily: function () {
+                        console.log("This is grand family")
+                    }
+                }
+
+            Function
+            --------
+                We use to reuse the code again and again
+
+                For example 
+                    function add(a, b) { // creating a function
+                        console.log(a + b);
+                    } 
+
+        */
+
+        var address = "Mumbai"; // string variable
+        document.write(address);
+        document.write("<hr>");
+
+        var address2 = 'Mumbai'; // string variable
+
+        var x = 2; // number variable
+        document.write(x);
+        document.write("<hr>");
+
+        var y = 23.23; // number variable, single line comment
+
+        var flowers = ["Rose", "Dahlia", "Magnolia", "Tulip", "Daisy"]; // array
+        console.log(flowers[0]);
+        console.log(flowers[1]);
+        console.log(flowers[2]);
+        console.log(flowers[3]);
+        console.log(flowers[4]);
+
+        document.write(flowers[0]);
+        document.write("<br>");
+        document.write(flowers[1]);
+        document.write("<br>");
+        document.write(flowers[2]);
+        document.write("<br>");
+        document.write(flowers[3]);
+        document.write("<br>");
+        document.write(flowers[4]);
+
+        document.write("<hr>");
+        var friends = ["Bhagyalaxmi", "Sanjit", "Nihal", "Sinchana", "Kavinkishore"];
+        document.write(friends[2]);
+
+        var family = { // object
+            father: "a", // property
+            mother: "b", // property
+            sister: "c", // property
+            brother: "d", // property 
+            grandeFamily: function () { // method
+                console.log("This is grand family")
+            }
+        };
+
+        document.write("<hr>");
+        document.write(family.father);
+        document.write("<hr>");
+        document.write(family["father"]);
+        console.log(family);
+
+        /*
+
+        4 Important points 
+            1. function keyword
+            2. function name 
+            3. params inside paranthesis 
+            4. code to execute inside curly braces
+        */
+
+        var a = 2;
+        var b = 5;
+        console.log(a + b);
+
+        var a = 12;
+        var b = 15;
+        console.log(a + b);
+
+        function add(a, b) { // creating a function
+            console.log(a + b);
+        }
+
+        add(5, 9); // calling function
+        add(9, 9); // calling function
+
+    </script>
+</body>
+
+</html>

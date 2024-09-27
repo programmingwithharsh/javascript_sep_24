@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        var address = "Chennai"; // Global variable
+        function displayMessage() {
+            // var username = "Akanchha"; // local variable
+            // not using var, let or const inside function then it will be a global variable
+            mobile = "iPhone";
+            console.log("displayMessage function");
+            console.log(address);
+        };
+
+        displayMessage(); // calling function here
+        // console.log(username); // 14_function.html:18 Uncaught ReferenceError: username is not defined
+        console.log(mobile);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let items = {
+            "name": "Karrthik",
+            "usernames": ["Hydrogen", "Helium", "Manasa", "Beryllium", "Rudra Pratap"],
+            "batters":
+            {
+                "batter":
+                    [
+                        { "id": "1001", "type": "Regular", "username": "Manohar" },
+                    ]
+            },
+            "name2": ["Prerna", "Santhosh", ["Ram", "Rohit", "Rachana"], "Kavinkishore"],
+            "topping":
+                [
+                    { "id": "5001", "type": "None", "username": "Srikar" }, // 0
+                    { "id": "5002", "type": "Glazed", "username": "Saransh", "username": "Sinchana" } // 1
+                ]
+        };
+
+        document.write(items.topping[1].username);
+    </script>
+</body>
+
+</html>
